@@ -1,0 +1,6 @@
+# ninja log v5
+3	210	7264391940000000	build.ninja	d4619a5b5a6406c2
+0	433	7264391760000000	CMakeFiles/Cdatastructures.dir/echo/main.cpp.obj	531a74a285fcdfd1
+433	541	7264391780000000	Cdatastructures.exe	5545da7836e059a4
+1	465	7264392020000000	CMakeFiles/echo.dir/echo/main.cpp.obj	b3204b48e417c316
+466	603	7264392040000000	echo.exe	4905d9952b5dfe20

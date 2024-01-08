@@ -1,0 +1,3 @@
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/echo.dir
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
