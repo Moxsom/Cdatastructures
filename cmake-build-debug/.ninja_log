@@ -1,6 +1,14 @@
 # ninja log v5
-3	210	7264391940000000	build.ninja	d4619a5b5a6406c2
+3	210	7264508620000000	build.ninja	d4619a5b5a6406c2
+3	442	7264398820000000	CMakeFiles/echo.dir/echo/main.cpp.obj	b3204b48e417c316
 0	433	7264391760000000	CMakeFiles/Cdatastructures.dir/echo/main.cpp.obj	531a74a285fcdfd1
+463	573	7264397560000000	echo.exe	4905d9952b5dfe20
 433	541	7264391780000000	Cdatastructures.exe	5545da7836e059a4
-1	465	7264392020000000	CMakeFiles/echo.dir/echo/main.cpp.obj	b3204b48e417c316
-466	603	7264392040000000	echo.exe	4905d9952b5dfe20
+7	477	7264512300000000	CMakeFiles/echo.dir/echo/main.cpp.obj	b3204b48e417c316
+2	481	7264512300000000	CMakeFiles/echo.dir/echo/echo_application.cpp.obj	a25fc50584f12da6
+481	591	7264512300000000	echo.exe	5f29dab4a9ed0bfb
+3	442	7264513540000000	CMakeFiles/echo.dir/echo/echo_application.cpp.obj	a25fc50584f12da6
+442	545	7264513540000000	echo.exe	5f29dab4a9ed0bfb
+7	439	7264514220000000	CMakeFiles/echo.dir/echo/main.cpp.obj	b3204b48e417c316
+3	454	7264514220000000	CMakeFiles/echo.dir/echo/echo_application.cpp.obj	a25fc50584f12da6
+454	547	7264514220000000	echo.exe	5f29dab4a9ed0bfb

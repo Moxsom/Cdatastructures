@@ -3,4 +3,4 @@ project(Cdatastructures)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(echo echo/main.cpp)
+add_executable(echo echo/main.cpp echo/echo_application.cpp)
