@@ -8,7 +8,6 @@ const std::string EchoApplication::END_VALUE = "end";
 
 EchoApplication::EchoApplication(std::istream &in, std::ostream &out) : _cin(in), _cout(out) {}
 
-
 void EchoApplication::input() {
     _cout << "Please enter the text you would like to see, If you would like to stop, enter 'end'" << std::endl;
     std::getline(_cin, _input);
