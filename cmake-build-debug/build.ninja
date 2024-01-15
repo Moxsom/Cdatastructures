@@ -145,6 +145,138 @@ build stringstream.exe: CXX_EXECUTABLE_LINKER__stringstream_Debug CMakeFiles/str
   TARGET_IMPLIB = libstringstream.dll.a
   TARGET_PDB = stringstream.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target vector
+
+
+#############################################
+# Order-only phony target for vector
+
+build cmake_object_order_depends_target_vector: phony || CMakeFiles/vector.dir
+
+build CMakeFiles/vector.dir/vector/main.cpp.obj: CXX_COMPILER__vector_unscanned_Debug E$:/WinterSemester/PROG2007/Exercises/Cdatastructures/vector/main.cpp || cmake_object_order_depends_target_vector
+  DEP_FILE = CMakeFiles\vector.dir\vector\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\vector.dir
+  OBJECT_FILE_DIR = CMakeFiles\vector.dir\vector
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector
+
+
+#############################################
+# Link the executable vector.exe
+
+build vector.exe: CXX_EXECUTABLE_LINKER__vector_Debug CMakeFiles/vector.dir/vector/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\vector.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = vector.exe
+  TARGET_IMPLIB = libvector.dll.a
+  TARGET_PDB = vector.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target dynamic_array
+
+
+#############################################
+# Order-only phony target for dynamic_array
+
+build cmake_object_order_depends_target_dynamic_array: phony || CMakeFiles/dynamic_array.dir
+
+build CMakeFiles/dynamic_array.dir/dynamic_array/main.cpp.obj: CXX_COMPILER__dynamic_array_unscanned_Debug E$:/WinterSemester/PROG2007/Exercises/Cdatastructures/dynamic_array/main.cpp || cmake_object_order_depends_target_dynamic_array
+  DEP_FILE = CMakeFiles\dynamic_array.dir\dynamic_array\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\dynamic_array.dir
+  OBJECT_FILE_DIR = CMakeFiles\dynamic_array.dir\dynamic_array
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target dynamic_array
+
+
+#############################################
+# Link the executable dynamic_array.exe
+
+build dynamic_array.exe: CXX_EXECUTABLE_LINKER__dynamic_array_Debug CMakeFiles/dynamic_array.dir/dynamic_array/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\dynamic_array.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = dynamic_array.exe
+  TARGET_IMPLIB = libdynamic_array.dll.a
+  TARGET_PDB = dynamic_array.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointers
+
+
+#############################################
+# Order-only phony target for pointers
+
+build cmake_object_order_depends_target_pointers: phony || CMakeFiles/pointers.dir
+
+build CMakeFiles/pointers.dir/pointers/main.cpp.obj: CXX_COMPILER__pointers_unscanned_Debug E$:/WinterSemester/PROG2007/Exercises/Cdatastructures/pointers/main.cpp || cmake_object_order_depends_target_pointers
+  DEP_FILE = CMakeFiles\pointers.dir\pointers\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointers.dir\pointers
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointers
+
+
+#############################################
+# Link the executable pointers.exe
+
+build pointers.exe: CXX_EXECUTABLE_LINKER__pointers_Debug CMakeFiles/pointers.dir/pointers/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointers.exe
+  TARGET_IMPLIB = libpointers.dll.a
+  TARGET_PDB = pointers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target linked_lists
+
+
+#############################################
+# Order-only phony target for linked_lists
+
+build cmake_object_order_depends_target_linked_lists: phony || CMakeFiles/linked_lists.dir
+
+build CMakeFiles/linked_lists.dir/linked_lists/main.cpp.obj: CXX_COMPILER__linked_lists_unscanned_Debug E$:/WinterSemester/PROG2007/Exercises/Cdatastructures/linked_lists/main.cpp || cmake_object_order_depends_target_linked_lists
+  DEP_FILE = CMakeFiles\linked_lists.dir\linked_lists\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\linked_lists.dir
+  OBJECT_FILE_DIR = CMakeFiles\linked_lists.dir\linked_lists
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target linked_lists
+
+
+#############################################
+# Link the executable linked_lists.exe
+
+build linked_lists.exe: CXX_EXECUTABLE_LINKER__linked_lists_Debug CMakeFiles/linked_lists.dir/linked_lists/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\linked_lists.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = linked_lists.exe
+  TARGET_IMPLIB = liblinked_lists.dll.a
+  TARGET_PDB = linked_lists.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -173,9 +305,17 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build commandLine: phony commandLine.exe
 
+build dynamic_array: phony dynamic_array.exe
+
 build echo: phony echo.exe
 
+build linked_lists: phony linked_lists.exe
+
+build pointers: phony pointers.exe
+
 build stringstream: phony stringstream.exe
+
+build vector: phony vector.exe
 
 # =============================================================================
 # Folder targets.
@@ -185,7 +325,7 @@ build stringstream: phony stringstream.exe
 #############################################
 # Folder: E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug
 
-build all: phony echo.exe commandLine.exe stringstream.exe
+build all: phony echo.exe commandLine.exe stringstream.exe vector.exe dynamic_array.exe pointers.exe linked_lists.exe
 
 # =============================================================================
 # Built-in targets

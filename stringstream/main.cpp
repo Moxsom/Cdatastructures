@@ -33,7 +33,7 @@ int main() {
 
             // success! try to extract out a second number
             ss >> number2;
-            if (ss.fail()) {
+            if (!ss.fail()) {
                 // success! it must be a command!
                 std::cout << "You have an ending number!" << std::endl;
                 std::cout << "I'll assume you are a valid command." << std::endl;

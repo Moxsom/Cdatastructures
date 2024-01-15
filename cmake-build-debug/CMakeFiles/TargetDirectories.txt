@@ -1,5 +1,9 @@
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/echo.dir
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/commandLine.dir
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/stringstream.dir
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/vector.dir
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/dynamic_array.dir
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/pointers.dir
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/linked_lists.dir
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
