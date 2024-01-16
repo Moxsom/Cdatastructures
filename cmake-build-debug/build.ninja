@@ -277,6 +277,39 @@ build linked_lists.exe: CXX_EXECUTABLE_LINKER__linked_lists_Debug CMakeFiles/lin
   TARGET_IMPLIB = liblinked_lists.dll.a
   TARGET_PDB = linked_lists.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target smart_ptr
+
+
+#############################################
+# Order-only phony target for smart_ptr
+
+build cmake_object_order_depends_target_smart_ptr: phony || CMakeFiles/smart_ptr.dir
+
+build CMakeFiles/smart_ptr.dir/smart_ptr/main.cpp.obj: CXX_COMPILER__smart_ptr_unscanned_Debug E$:/WinterSemester/PROG2007/Exercises/Cdatastructures/smart_ptr/main.cpp || cmake_object_order_depends_target_smart_ptr
+  DEP_FILE = CMakeFiles\smart_ptr.dir\smart_ptr\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\smart_ptr.dir
+  OBJECT_FILE_DIR = CMakeFiles\smart_ptr.dir\smart_ptr
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target smart_ptr
+
+
+#############################################
+# Link the executable smart_ptr.exe
+
+build smart_ptr.exe: CXX_EXECUTABLE_LINKER__smart_ptr_Debug CMakeFiles/smart_ptr.dir/smart_ptr/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\smart_ptr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = smart_ptr.exe
+  TARGET_IMPLIB = libsmart_ptr.dll.a
+  TARGET_PDB = smart_ptr.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -313,6 +346,8 @@ build linked_lists: phony linked_lists.exe
 
 build pointers: phony pointers.exe
 
+build smart_ptr: phony smart_ptr.exe
+
 build stringstream: phony stringstream.exe
 
 build vector: phony vector.exe
@@ -325,7 +360,7 @@ build vector: phony vector.exe
 #############################################
 # Folder: E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug
 
-build all: phony echo.exe commandLine.exe stringstream.exe vector.exe dynamic_array.exe pointers.exe linked_lists.exe
+build all: phony echo.exe commandLine.exe stringstream.exe vector.exe dynamic_array.exe pointers.exe linked_lists.exe smart_ptr.exe
 
 # =============================================================================
 # Built-in targets
