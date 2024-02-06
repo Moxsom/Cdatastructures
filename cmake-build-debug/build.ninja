@@ -310,6 +310,39 @@ build smart_ptr.exe: CXX_EXECUTABLE_LINKER__smart_ptr_Debug CMakeFiles/smart_ptr
   TARGET_IMPLIB = libsmart_ptr.dll.a
   TARGET_PDB = smart_ptr.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target queues
+
+
+#############################################
+# Order-only phony target for queues
+
+build cmake_object_order_depends_target_queues: phony || CMakeFiles/queues.dir
+
+build CMakeFiles/queues.dir/queues/main.cpp.obj: CXX_COMPILER__queues_unscanned_Debug E$:/WinterSemester/PROG2007/Exercises/Cdatastructures/queues/main.cpp || cmake_object_order_depends_target_queues
+  DEP_FILE = CMakeFiles\queues.dir\queues\main.cpp.obj.d
+  FLAGS = -static -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\queues.dir
+  OBJECT_FILE_DIR = CMakeFiles\queues.dir\queues
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target queues
+
+
+#############################################
+# Link the executable queues.exe
+
+build queues.exe: CXX_EXECUTABLE_LINKER__queues_Debug CMakeFiles/queues.dir/queues/main.cpp.obj
+  FLAGS = -static -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\queues.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = queues.exe
+  TARGET_IMPLIB = libqueues.dll.a
+  TARGET_PDB = queues.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -346,6 +379,8 @@ build linked_lists: phony linked_lists.exe
 
 build pointers: phony pointers.exe
 
+build queues: phony queues.exe
+
 build smart_ptr: phony smart_ptr.exe
 
 build stringstream: phony stringstream.exe
@@ -360,7 +395,7 @@ build vector: phony vector.exe
 #############################################
 # Folder: E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug
 
-build all: phony echo.exe commandLine.exe stringstream.exe vector.exe dynamic_array.exe pointers.exe linked_lists.exe smart_ptr.exe
+build all: phony echo.exe commandLine.exe stringstream.exe vector.exe dynamic_array.exe pointers.exe linked_lists.exe smart_ptr.exe queues.exe
 
 # =============================================================================
 # Built-in targets

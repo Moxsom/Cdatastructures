@@ -49,6 +49,7 @@ int main() {
                 std::cout << "I'll assume you are a command!" << std::endl;
             } else {
                 std::cout << "You must be text instead" << std::endl;
+
             }
         }
     }

@@ -5,5 +5,7 @@ E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFile
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/dynamic_array.dir
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/pointers.dir
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/linked_lists.dir
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/smart_ptr.dir
+E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/queues.dir
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/edit_cache.dir
 E:/WinterSemester/PROG2007/Exercises/Cdatastructures/cmake-build-debug/CMakeFiles/rebuild_cache.dir
